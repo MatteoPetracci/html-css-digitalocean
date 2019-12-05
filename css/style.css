@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.list_none {
+  list-style: none;
+}
+
 /* header */
 
 .header_top {
@@ -35,6 +39,10 @@
 @media screen and (max-width: 1200px) {
   .width_100 {
     width: 50%;
+  }
+  .align_left {
+    text-align: left;
+
   }
 }
 
