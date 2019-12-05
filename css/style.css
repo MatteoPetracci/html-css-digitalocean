@@ -41,12 +41,19 @@
 
 /* seconda sezione */
 
-/* sezione design */
+/* design */
 #design {
   height: 400px;
   background-color: lightgrey;
 }
 
+/* service */
+
+#service {
+  height: 400px;
+  background-color: blue;
+  color: white;
+}
 
 
 
