@@ -55,7 +55,30 @@
   color: white;
 }
 
+/* develope */
+#develope {
+  position: relative;
+  height: 500px;
+  background-color: lightgrey;
+}
 
+.container_box{
+  height: 300px;
+  vertical-align: middle;
+  /* position: relative; */
+
+}
+
+.rocker_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 40%;
+  margin: auto;
+  vertical-align: middle;
+}
 
 @media screen and (max-width: 1200px) {
   .width_100 {
@@ -70,6 +93,9 @@
 @media screen and (max-width: 768px) {
   .logo_list {
     display: block;
+  }
+  body {
+    width: 100%;
   }
 }
 
