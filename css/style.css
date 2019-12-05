@@ -2,15 +2,29 @@
   width: 100%;
 }
 
+/* header */
+
 .header_top {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  /* height: ;
-  background: ;
-  line-height:;
-  z-index: ; */
+  height: 80px;
+  line-height: 80px;
+  z-index: 10;
 }
 
-.jumbo
+
+.jumbo {
+  background-image: url(../img/jumbo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .width_100 {
+    width: 50%;
+  }
+}
