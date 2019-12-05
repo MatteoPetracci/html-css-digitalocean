@@ -33,6 +33,31 @@ body {
   background-color: white;
 }
 
+.header_top .container ul li a {
+  color: #0e215d;
+  text-decoration: none;
+}
+
+.header_top .container ul li a.btn_blue {
+  color: #0088ff;
+}
+
+.btn_blue {
+  border: 2px solid #0088ff;
+  color: #0088ff;
+}
+
+.header_top .container ul li:hover a.btn_blue {
+  border: 2px solid white;
+  color: white;
+  background-color: #0088ff;
+  border-radius: 5px;
+}
+
+
+
+
+
 /* jumbo */
 
 .jumbo {
