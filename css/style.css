@@ -1,13 +1,23 @@
+
+body {
+  min-width: 400px;
+  font-family: 'Roboto', sans-serif;
+}
+
 .width_100 {
   width: 100%;
 }
 
-body {
-  min-width: 400px;
+.width_70 {
+  width: 70%;
 }
 
 .list_none {
   list-style: none;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* header */
@@ -101,8 +111,8 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-  .width_100 {
-    width: 50%;
+  .width_70 {
+    width: 40%;
   }
   .align_left {
     text-align: left;
