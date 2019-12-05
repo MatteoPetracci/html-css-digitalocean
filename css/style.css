@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.height_300{
+  height: 300px;
+}
+
 .list_none {
   list-style: none;
 }
@@ -88,6 +92,13 @@
   transform: translate(-50%, -50%);
 }
 
+/* footer */
+
+footer {
+  background-color: darkblue;
+  height: 500px;
+  color: white;
+}
 
 @media screen and (max-width: 1200px) {
   .width_100 {
