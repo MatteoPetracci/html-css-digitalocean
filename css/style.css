@@ -23,8 +23,28 @@
   margin-top: 80px;
 }
 
+#logo {
+  background-color: lightgrey;
+}
+
+.logo_list {
+  list-style: none;
+}
+
 @media screen and (max-width: 1200px) {
   .width_100 {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo_list {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo_list li {
+    display: inline-block;
   }
 }
