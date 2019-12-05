@@ -19,6 +19,7 @@
   background-color: white;
 }
 
+/* jumbo */
 
 .jumbo {
   background-image: url(../img/jumbo.jpg);
@@ -28,6 +29,8 @@
   margin-top: 80px;
 }
 
+/* loghi */
+
 #logo {
   background-color: lightgrey;
 }
@@ -35,6 +38,17 @@
 .logo_list {
   list-style: none;
 }
+
+/* seconda sezione */
+
+/* sezione design */
+#design {
+  height: 400px;
+  background-color: lightgrey;
+}
+
+
+
 
 @media screen and (max-width: 1200px) {
   .width_100 {
