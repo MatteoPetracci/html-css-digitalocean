@@ -1,0 +1,16 @@
+.width_100 {
+  width: 100%;
+}
+
+.header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: ;
+  background: ;
+  line-height:;
+  z-index: ; */
+}
+
+.jumbo
