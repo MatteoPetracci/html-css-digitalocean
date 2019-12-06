@@ -89,7 +89,6 @@ body {
 
 .box_white {
   width: 90%;
-  height: 300px;
   background-color: white;
   border-radius: 5px;
 }
@@ -101,6 +100,15 @@ body {
 .color_jumbo {
   color: #0148FC;
   line-height: 20px;
+}
+
+.button_account {
+  background-color: #0148FC;
+  color: white;
+}
+
+.button_google {
+  box-shadow: 2px 2px lightgrey;
 }
 
 /* loghi */
