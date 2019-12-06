@@ -179,6 +179,10 @@ body {
 
 /* seconda sezione */
 
+#deploy {
+  padding: 40px 0;
+}
+
 .width_90 {
   width: 90%;
   margin: auto;
@@ -217,17 +221,20 @@ ul.line_deploy li a {
   color: #0e215d;
 }
 
-.cluster img {
-  margin: 0 0;
-}
+
 
 .cluster p {
   color: rgba(3,27,78,.7);
 }
 /* design */
 #design {
-  height: 400px;
-  background-color: lightgrey;
+  padding: 40px 0;
+  background-color: #F3F5F9;
+}
+
+.width_50 {
+  width: 50%;
+  margin: auto;
 }
 
 /* service */
@@ -305,3 +312,9 @@ footer {
     display: inline-block;
   }
 }
+
+/* @media screen and (max-width: 992px) {
+  .cluster img.margin_img {
+    margin-top: 10px;
+  }
+} */
