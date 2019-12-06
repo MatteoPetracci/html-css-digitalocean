@@ -20,10 +20,6 @@ body {
   font-weight: bold;
 }
 
-.style_h1 {
-  color: white;
-  font-size: 55px;
-}
 
 .padding_70 {
   padding: 70px 0;
@@ -40,6 +36,18 @@ body {
   line-height: 80px;
   z-index: 100;
   background-color: white;
+}
+
+.style_h1 {
+  color: white;
+  font-size: 60px;
+  width: 85%;
+}
+
+.style_p {
+  font-size: 18px;
+  color: lightgrey;
+  width: 85%;
 }
 
 .header_top .container ul li a {
