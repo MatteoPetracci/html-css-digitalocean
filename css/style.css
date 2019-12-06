@@ -71,19 +71,19 @@ body {
   border-radius: 5px;
 }
 
-
-
-
-
 /* jumbo */
 
 .jumbo {
   background-image: url(../img/jumbo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 500px; */
   margin-top: 80px;
+}
 
+.box_white {
+  width: 90%;
+  height: 300px;
+  background-color: white;
 }
 
 /* loghi */
