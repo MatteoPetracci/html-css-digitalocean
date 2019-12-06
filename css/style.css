@@ -190,6 +190,40 @@ body {
   color: #0e215d;
 }
 
+.width_70_margin {
+  width: 70%;
+  margin: auto;
+}
+
+.cluster {
+  height: 200px;
+}
+
+ul.line_deploy  {
+  line-height: 35px;
+  border-left: 1px solid grey;
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+ul.line_deploy li a {
+  color: rgba(3,27,78,.7);
+}
+
+.cluster h4 {
+  margin: 20px 0;
+  font-weight: 700;
+  color: #0e215d;
+}
+
+.cluster img {
+  margin: 0 0;
+}
+
+.cluster p {
+  color: rgba(3,27,78,.7);
+}
 /* design */
 #design {
   height: 400px;
