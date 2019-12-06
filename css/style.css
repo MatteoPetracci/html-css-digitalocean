@@ -108,8 +108,18 @@ body {
 }
 
 .button_google {
-  box-shadow: 2px 2px lightgrey;
+  box-shadow: 1px 1px lightgrey;
+  background-color: white;
+  border-radius: 5px;
 }
+
+.icon_google {
+  position: relative;
+  width: 8%;
+  left: -100px;
+  padding: 5px;
+}
+
 
 /* loghi */
 
@@ -184,7 +194,9 @@ footer {
   }
   .align_left {
     text-align: left;
-
+  }
+  .icon_google {
+    left: 0;
   }
 }
 
