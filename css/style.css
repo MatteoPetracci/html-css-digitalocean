@@ -235,7 +235,9 @@ ul.line_deploy li a {
 .cluster p {
   color: rgba(3,27,78,.7);
 }
+
 /* design */
+
 #design {
   padding: 40px 0;
   background-color: #F3F5F9;
@@ -246,34 +248,25 @@ ul.line_deploy li a {
   margin: auto;
   margin-top: 50px;
 }
-.width_65 {
-  width: 65%;
+
+.style_p {
   margin: auto;
   font-size: 18px;
   color: rgba(3,27,78,.7);
 }
 
-.arrow_left {
-  right: 320px;
-  top: 200px;
-  font-size: 20px;
-  color: #0e215d;
-}
-
-.arrow_right {
-  left: 320px;
-  top: -200px;
-  font-size: 20px;
-  color: #0e215d;
-}
-
 .circle span a:hover i {
-  background-color: blue;
+  background-color: #0e215d;
   border-radius: 50%;
 }
 
 .display_inline {
   display: inline-block;
+}
+
+.arrow {
+  line-height: 350px;
+  font-size: 25px;
 }
 
 /* service */
@@ -335,15 +328,27 @@ footer {
   .icon_google {
     left: 0;
   }
+
+  .arrow_left, {
+    right: 280px;
+    top: 170px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .cluster img.margin_img {
+    margin-top: 50px;
+  }
+  .arrow {
+    line-height: 260px
+  }
 }
 
 @media screen and (max-width: 768px) {
   .logo_list {
     display: block;
   }
-  body {
-    width: 100%;
-  }
+
   #logo li {
     max-width: calc(90%/2);
   }
