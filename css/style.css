@@ -83,7 +83,7 @@ body {
 }
 
 /* jumbo */
-
+/* aggiungere hover su button */
 .jumbo {
   background-image: url(../img/jumbo.jpg);
   background-size: cover;
@@ -102,12 +102,12 @@ body {
 }
 
 .color_jumbo {
-  color: #0148FC;
+  color: #0069ff;;
   line-height: 20px;
 }
 
 .button_account {
-  background-color: #0148FC;
+  background-color: #0069ff;
   color: white;
 }
 
@@ -123,7 +123,6 @@ body {
   left: -100px;
   padding: 5px;
 }
-
 
 /* loghi */
 
