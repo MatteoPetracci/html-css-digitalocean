@@ -150,7 +150,9 @@ body {
   width: 100%;
 }
 .size_img_logo_2 {
+  position: relative;
   width: 70%;
+  left: 20px;
 }
 .size_img_logo_3 {
   width: 90%;
@@ -162,7 +164,7 @@ body {
   width: 100%;
 }
 .size_img_logo_6 {
-  width: 100%;
+  width: 90%;
 }
 
 /* seconda sezione */
