@@ -28,6 +28,10 @@ body {
   padding: 70px 0;
 }
 
+.margin_top_20 {
+  margin-top: 20px;
+}
+
 /* header */
 
 .header_top {
