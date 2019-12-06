@@ -8,6 +8,7 @@ body {
   width: 100%;
 }
 
+
 .width_70 {
   width: 70%;
 }
@@ -177,6 +178,17 @@ body {
 }
 
 /* seconda sezione */
+
+.width_90 {
+  width: 90%;
+  margin: auto;
+  font-size: 18px;
+  color: rgba(3,27,78,.7);
+}
+
+.color_blue {
+  color: #0e215d;
+}
 
 /* design */
 #design {
