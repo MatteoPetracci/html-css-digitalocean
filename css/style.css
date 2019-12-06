@@ -20,6 +20,9 @@ body {
   font-weight: bold;
 }
 
+.padding_30 {
+  padding: 15px;
+}
 
 .padding_70 {
   padding: 70px 0;
@@ -84,6 +87,16 @@ body {
   width: 90%;
   height: 300px;
   background-color: white;
+  border-radius: 5px;
+}
+
+.text_jumbo {
+  font-size: 27px;
+}
+
+.color_jumbo {
+  color: #0148FC;
+  line-height: 20px;
 }
 
 /* loghi */
