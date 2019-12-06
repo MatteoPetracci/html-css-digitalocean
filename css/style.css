@@ -136,6 +136,33 @@ body {
 }
 .logo_list {
   list-style: none;
+  display: inline-block;
+}
+
+.width_90_margin {
+  width: 90%;
+  margin: auto;
+  height: 80px;
+  line-height: 80px;
+}
+
+.size_img_logo_1 {
+  width: 100%;
+}
+.size_img_logo_2 {
+  width: 70%;
+}
+.size_img_logo_3 {
+  width: 90%;
+}
+.size_img_logo_4 {
+  width: 100%;
+}
+.size_img_logo_5 {
+  width: 100%;
+}
+.size_img_logo_6 {
+  width: 100%;
 }
 
 /* seconda sezione */
