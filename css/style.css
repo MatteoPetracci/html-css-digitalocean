@@ -20,6 +20,15 @@ body {
   font-weight: bold;
 }
 
+.style_h1 {
+  color: white;
+  font-size: 55px;
+}
+
+.padding_70 {
+  padding: 70px 0;
+}
+
 /* header */
 
 .header_top {
@@ -64,8 +73,9 @@ body {
   background-image: url(../img/jumbo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  /* height: 500px; */
   margin-top: 80px;
+
 }
 
 /* loghi */
