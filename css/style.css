@@ -321,8 +321,10 @@ ul.line_deploy li a {
   cursor: pointer;
 }
 
-#service ul
-
+.span_middle,
+.span_ams {
+  color: lightgrey;
+}
 /* develope */
 #develope {
   position: relative;
