@@ -376,6 +376,16 @@ footer {
   color: white;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  i.arrow_responsive {
+    left: 100px;
+  }
+
+  h2 {
+    margin-left: 75px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .width_70 {
     width: 40%;
@@ -416,6 +426,9 @@ footer {
   #business .row img {
     margin-top: 15px;
   }
+  .box {
+    margin-left: -125px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -432,5 +445,14 @@ footer {
   .cluster img.margin_img {
     margin-top: 50px;
   }
+  i.arrow_responsive {
+    left: 400px;
+  }
 
+  .box {
+    margin:inherit;
+  }
+  .box_develope {
+    margin-right: 400px;
+  }
 }
