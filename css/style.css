@@ -280,6 +280,10 @@ ul.line_deploy li a {
   color: rgba(3,27,78,.7);
 }
 
+#business a {
+  font-size: 16px;
+}
+
 /* service */
 
 #service {
@@ -365,12 +369,17 @@ footer {
   #logo li img {
     width: 70%;
   }
+
+  #business .row img {
+    margin-top: 15px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .logo_list li {
     display: inline-block;
   }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
