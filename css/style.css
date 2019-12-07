@@ -357,8 +357,12 @@ ul.line_deploy li a {
 /* account */
 #account {
   position: relative;
-  height: 200px;
-  background-color: blue;
+  padding: 100px;
+  background-color: darkblue;
+}
+
+.white_color {
+  color: white;
 }
 
 .container_account {
@@ -368,10 +372,16 @@ ul.line_deploy li a {
   transform: translate(-50%, -50%);
 }
 
+.account_button {
+  font-weight: bold;
+  color: #0069ff;
+  margin-top: 10px;
+}
+
 /* footer */
 
 footer {
-  background-color: darkblue;
+  background-color: #010E28;
   height: 500px;
   color: white;
 }
@@ -428,6 +438,9 @@ footer {
   }
   .box {
     margin-left: -125px;
+  }
+  .xs_margin {
+    margin-top: 20px;
   }
 }
 
