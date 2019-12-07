@@ -287,8 +287,8 @@ ul.line_deploy li a {
 /* service */
 
 #service {
-  height: 400px;
-  background-color: blue;
+  padding: 40px 0;
+  background-image: linear-gradient(#0000ff, #0e215d);
   color: white;
 }
 
