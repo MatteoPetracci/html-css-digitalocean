@@ -316,6 +316,11 @@ ul.line_deploy li a {
   margin-left: 4px;
 }
 
+#service ul li:hover span.left_margin {
+  color: #00d7d2;
+  cursor: pointer;
+}
+
 #service ul
 
 /* develope */
