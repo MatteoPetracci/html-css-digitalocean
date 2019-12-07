@@ -35,6 +35,10 @@ body {
   margin-top: 50px;
 }
 
+.margin_top_100 {
+  margin-top: 100px;
+}
+
 /* header */
 
 .header_top {
@@ -327,21 +331,16 @@ ul.line_deploy li a {
 }
 /* develope */
 #develope {
-  position: relative;
-  height: 500px;
-  background-color: lightgrey;
+  /* position: relative; */
+  padding: 40px 0;
+  background-color: #F3F5F9;
 }
 
-.rocker_box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.box {
+  width: 550px;
+  height: 350px;
   background-color: white;
-  width: 40%;
   margin: auto;
-  vertical-align: middle;
-  height: 300px;
 }
 
 /* account */
