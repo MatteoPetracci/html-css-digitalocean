@@ -57,7 +57,7 @@ body {
   width: 85%;
 }
 
-.style_p {
+.style_p_header {
   font-size: 18px;
   color: lightgrey;
   width: 85%;
@@ -336,12 +336,10 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  .cluster img.margin_img {
-    margin-top: 50px;
-  }
   .arrow {
     line-height: 260px
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -352,6 +350,7 @@ footer {
   #logo li {
     max-width: calc(90%/2);
   }
+
   #logo li img {
     width: 70%;
   }
@@ -361,4 +360,14 @@ footer {
   .logo_list li {
     display: inline-block;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #deploy {
+    padding-bottom: 120px;
+  }
+  .cluster img.margin_img {
+    margin-top: 50px;
+  }
+
 }
