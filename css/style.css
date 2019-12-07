@@ -296,6 +296,7 @@ ul.line_deploy li a {
   margin-right: 40px;
   text-transform: uppercase;
   text-align: right;
+  width: 40px;
 }
 
 .left_margin::after {
@@ -309,6 +310,10 @@ ul.line_deploy li a {
   margin-left: 170px;
   position: absolute;
   right: 30px;
+}
+
+.span_middle {
+  margin-left: 4px;
 }
 
 #service ul
