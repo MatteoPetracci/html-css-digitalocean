@@ -266,7 +266,19 @@ ul.line_deploy li a {
 
 /* businesses */
 
+#business {
+  padding: 40px 0;
+}
 
+#business h3 {
+  margin: 20px 0;
+  font-weight: 700;
+  color: #0e215d;
+}
+
+#business p {
+  color: rgba(3,27,78,.7);
+}
 
 /* service */
 
