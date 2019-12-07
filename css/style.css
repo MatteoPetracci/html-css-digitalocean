@@ -292,6 +292,14 @@ ul.line_deploy li a {
   color: white;
 }
 
+.right_margin {
+  margin-right: 40px;
+}
+
+.left_margin {
+  margin-left: 170px;
+}
+
 /* develope */
 #develope {
   position: relative;
