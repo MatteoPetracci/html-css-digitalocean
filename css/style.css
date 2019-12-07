@@ -296,6 +296,13 @@ ul.line_deploy li a {
   margin-right: 40px;
 }
 
+.left_margin::after {
+  content: ">";
+  display: inline-block;
+  margin-left: 15px;
+}
+
+
 .left_margin {
   margin-left: 170px;
 }
