@@ -39,6 +39,10 @@ body {
   margin-top: 100px;
 }
 
+.margin_bottom_20 {
+  margin-bottom: 20px;
+}
+
 /* header */
 
 .header_top {
@@ -329,18 +333,25 @@ ul.line_deploy li a {
 .span_ams {
   color: lightgrey;
 }
+
 /* develope */
+
 #develope {
-  /* position: relative; */
   padding: 40px 0;
   background-color: #F3F5F9;
 }
 
 .box {
+  padding: 70px 0;
   width: 550px;
-  height: 350px;
+  height: 320px;
   background-color: white;
   margin: auto;
+}
+
+#develope img {
+  width: 55%;
+  margin-bottom: 20px;
 }
 
 /* account */
