@@ -243,6 +243,12 @@ ul.line_deploy li a {
   color: rgba(3,27,78,.7);
 }
 
+#deploy ul li:hover a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /* design */
 
 #design {
@@ -263,7 +269,7 @@ ul.line_deploy li a {
 }
 
 .circle span a:hover i {
-  background-color: #0e215d;
+  background-color: #0088ff;
   border-radius: 50%;
 }
 
