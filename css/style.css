@@ -435,7 +435,7 @@ footer ul {
 .fixed_bottom {
   position: fixed;
   width: 100%;
-  top: 500px;
+  top: 450px;
   right: 100px;
 }
 
@@ -444,6 +444,7 @@ footer ul {
   position: absolute;
   left: 0;
   transform: translateY(-5px);
+  /* margin-bottom: 30px; */
 }
 
 .last_p {
@@ -463,6 +464,9 @@ footer ul li:hover  {
 
 footer .fixed_bottom:hover p {
   display: block;
+}
+
+footer .fixed_bottom:hover img {
   cursor: pointer;
 }
 
@@ -500,6 +504,10 @@ footer .fixed_bottom:hover p {
   .arrow_left, {
     right: 280px;
     top: 170px;
+  }
+
+  .fixed_bottom {
+    display: none;
   }
 }
 
