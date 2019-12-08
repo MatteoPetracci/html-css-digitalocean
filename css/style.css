@@ -123,9 +123,9 @@ header .header_top ul li:hover a {
 }
 
 .button_google {
-  box-shadow: 1px 1px lightgrey;
-  background-color: white;
+  box-shadow: 2px 2px lightgrey;
   border-radius: 5px;
+  border: none;
 }
 
 .icon_google {
