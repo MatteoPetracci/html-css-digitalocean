@@ -282,6 +282,11 @@ ul.line_deploy li a {
   font-size: 25px;
 }
 
+#design a {
+  color: #0088ff;
+}
+
+
 /* businesses */
 
 #business {
@@ -362,6 +367,10 @@ ul.line_deploy li a {
 #develope img {
   width: 55%;
   margin-bottom: 20px;
+}
+
+#develope a {
+  color: #0088ff;
 }
 
 /* account */
