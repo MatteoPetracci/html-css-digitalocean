@@ -447,6 +447,7 @@ footer ul {
 }
 
 .last_p {
+  display: none;
   background-color: white;
   padding: 15px;
   border-radius: 10px;
@@ -457,6 +458,11 @@ footer ul {
 footer ul li:hover  {
   color: white;
   font-weight: bold;
+  cursor: pointer;
+}
+
+footer .fixed_bottom:hover p {
+  display: block;
   cursor: pointer;
 }
 
