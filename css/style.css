@@ -432,6 +432,13 @@ footer ul {
   position: relative;
 }
 
+.fixed_bottom {
+  position: fixed;
+  width: 100%;
+  top: 500px;
+  right: 100px;
+}
+
 .shark {
   width: 100%;
   position: absolute;
@@ -444,6 +451,7 @@ footer ul {
   padding: 15px;
   border-radius: 10px;
   color: darkblue;
+  border: 1px solid darkblue;
 }
 
 footer ul li:hover  {
