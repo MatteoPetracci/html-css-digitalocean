@@ -89,6 +89,10 @@ body {
   border-radius: 5px;
 }
 
+header .header_top ul li:hover a {
+  color: #0088ff;
+}
+
 /* jumbo */
 
 .jumbo {
@@ -414,6 +418,16 @@ footer ul li:hover  {
   h2 {
     margin-left: 75px;
   }
+
+  .account_button {
+    position: relative;
+    left: 32px;
+  }
+
+  .circle {
+    position: relative;
+    left: 40px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -478,6 +492,7 @@ footer ul li:hover  {
   .cluster img.margin_img {
     margin-top: 50px;
   }
+
   i.arrow_responsive {
     left: 400px;
   }
@@ -485,7 +500,12 @@ footer ul li:hover  {
   .box {
     margin:inherit;
   }
+
   .box_develope {
     margin-right: 400px;
+  }
+
+  .circle {
+    margin-top: 15px;
   }
 }
