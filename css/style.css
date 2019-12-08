@@ -93,6 +93,10 @@ header .header_top ul li:hover a {
   color: #0088ff;
 }
 
+.header_top img:hover {
+  cursor: pointer;
+}
+
 /* jumbo */
 
 .jumbo {
@@ -286,6 +290,10 @@ ul.line_deploy li a {
   color: #0088ff;
 }
 
+.arrow:hover {
+  color: #0088ff;
+  cursor: pointer;
+}
 
 /* businesses */
 
@@ -374,6 +382,7 @@ ul.line_deploy li a {
 }
 
 /* account */
+
 #account {
   position: relative;
   padding: 100px;
