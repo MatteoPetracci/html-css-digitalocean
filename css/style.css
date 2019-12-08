@@ -428,6 +428,24 @@ footer ul {
   font-size: 16px;
 }
 
+.box_shark {
+  position: relative;
+}
+
+.shark {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  transform: translateY(-5px);
+}
+
+.last_p {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  color: darkblue;
+}
+
 footer ul li:hover  {
   color: white;
   font-weight: bold;
