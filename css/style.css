@@ -381,9 +381,18 @@ ul.line_deploy li a {
 /* footer */
 
 footer {
-  background-color: #010E28;
-  height: 500px;
-  color: white;
+  padding: 70px 0;
+  background-color: #0c1050;
+  color: lightgrey;
+}
+
+.box_logo_footer {
+  position: relative;
+  top: -30px;
+}
+
+footer ul {
+  line-height: 2.5;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
